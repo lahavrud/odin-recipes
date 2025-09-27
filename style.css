@@ -1,0 +1,53 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.hero-title {
+    font-size: 10em;
+    text-align: center;
+    background-color: rgba(255, 200, 0, 0.75);
+    border: 1px solid red;
+    color: orangered;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.recipes {
+    background-color: rgba(255, 200, 0, 0.75);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  line-height: 2;
+  color: black;
+  padding: 10px;
+  border: 3px rgb(0, 0, 0) solid;
+  border-radius: 20px;
+}
+
+a:link, a:visited, a:focus{
+    background: rgba(255, 68, 0, 0.75);
+}
+
+
+a:hover {
+    background: rgb(255, 130, 0);
+
+}
+
+a:active {
+  text-decoration: none;
+  background: darkred;
+  color: white;
+}
+
+ul.recipes {
+    list-style-type: none;
+    font-size: 3em;
+    color: red;
+}
